@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="build/|de/|doclet/|lib/|misc/|test/" kind="src" output="core" path="jEdit"/>
+	<classpathentry kind="var" path="JRE_LIB" sourcepath="JRE_SRC"/>
+	<classpathentry kind="lib" path="/home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/lib/compile/jsr305.jar"/>
+	<classpathentry kind="lib" path="/usr/share/ant/lib/ant.jar"/>
+	<classpathentry kind="output" path="build-eclipse"/>
+</classpath>

@@ -249,6 +249,13 @@ public class TextAreaOptionPane extends AbstractOptionPane
 			"options.textarea.insertCompletionWithDigit"));
 		insertCompletionWithDigit.setSelected(jEdit.getBooleanProperty("insertCompletionWithDigit"));
 		addComponent(insertCompletionWithDigit);
+		
+		/* Enable notepad-like style */
+		notepadStyle = new JCheckBox(jEdit.getProperty("options.textarea.notepadStyle"));
+		notepadStyle.setSelected(jEdit.getBooleanProperty("view.notepadStyle"));
+		addComponent(notepadStyle,notepadStyleColor = new ColorWellButton(
+				jEdit.getColorProperty("view.notepadStyle")),
+				GridBagConstraints.VERTICAL);
 	} //}}}
 
 	//{{{ _save() method
@@ -306,6 +313,8 @@ public class TextAreaOptionPane extends AbstractOptionPane
 		jEdit.setBooleanProperty("insertCompletionWithDigit", insertCompletionWithDigit.isSelected());
 		jEdit.setIntegerProperty("options.textarea.lineSpacing",
 					 Integer.valueOf(lineSpacing.getText()));
+		jEdit.setBooleanProperty("view.notepadStyle",notepadStyle.isSelected());
+		jEdit.setColorProperty("view.notepadStyleColor", notepadStyleColor.getSelectedColor());
 	} //}}}
 
 	//{{{ Private members
@@ -340,6 +349,8 @@ public class TextAreaOptionPane extends AbstractOptionPane
 	private JCheckBox completeFromAllBuffers;
 	private JCheckBox insertCompletionWithDigit;
 	private JTextField lineSpacing;
+	private JCheckBox notepadStyle;
+	private ColorWellButton notepadStyleColor;
 	//}}}
 
 	//{{{ FontList class

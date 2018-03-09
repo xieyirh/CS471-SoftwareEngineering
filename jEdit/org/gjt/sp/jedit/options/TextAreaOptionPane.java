@@ -254,7 +254,7 @@ public class TextAreaOptionPane extends AbstractOptionPane
 		notepadStyle = new JCheckBox(jEdit.getProperty("options.textarea.notepadStyle"));
 		notepadStyle.setSelected(jEdit.getBooleanProperty("view.notepadStyle"));
 		addComponent(notepadStyle,notepadStyleColor = new ColorWellButton(
-				jEdit.getColorProperty("view.notepadStyle")),
+				jEdit.getColorProperty("view.notepadStyleColor")),
 				GridBagConstraints.VERTICAL);
 	} //}}}
 

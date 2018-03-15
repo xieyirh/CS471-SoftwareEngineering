@@ -1,5 +1,7 @@
 #jEdit properties
-#Fri Mar 09 13:42:49 PST 2018
+#Sat Mar 10 18:06:43 PST 2018
+Combined\ Options.x=55
+Combined\ Options.y=-63
 firstTime=false
 helpviewer.extendedState=0
 helpviewer.height=530
@@ -9,6 +11,7 @@ helpviewer.x=50
 helpviewer.y=50
 keymap.current=imported
 migration.step.checkFileStatus=true
+optional.last.tab=0
 search.beanshell.toggle=false
 search.ignoreCase.toggle=false
 search.regexp.toggle=false

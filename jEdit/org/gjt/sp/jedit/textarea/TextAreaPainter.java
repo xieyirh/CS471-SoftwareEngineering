@@ -101,6 +101,12 @@ public class TextAreaPainter extends JComponent implements TabExpander
 	 * @since jEdit 4.0pre4
 	 */
 	public static final int WRAP_GUIDE_LAYER = -20;
+	
+	/**
+	 * Notepad Style layer. Most extensions will be above this layer.
+	 * @since jEdit 4.0pre4
+	 */
+	public static final int NOTEPAD_STYLE_LAYER = -15;
 
 	/**
 	 * Below most extensions layer.
@@ -589,6 +595,29 @@ public class TextAreaPainter extends JComponent implements TabExpander
 		this.wrapGuideColor = wrapGuideColor;
 		repaint();
 	} //}}}
+	
+	
+	public final Color getNotepadStyleColor()
+	{
+		return notepadStyleColor;
+	}
+	
+	public final void setNotepadStyleColor(Color notepadStyleColor)
+	{
+		this.notepadStyleColor = notepadStyleColor;
+		repaint();
+	}
+	
+	public final boolean isNotepadStyleColorPainted()
+	{
+		return notepadStyle;
+	}
+	
+	public final void  setNotepadStylePainted(boolean notepadStyle)
+	{
+		this.notepadStyle = notepadStyle;
+		repaint();
+	}
 
 	//{{{ isWrapGuidePainted() method
 	/**
@@ -970,6 +999,7 @@ public class TextAreaPainter extends JComponent implements TabExpander
 	Color eolMarkerColor;
 	String eolMarkerChar;
 	Color wrapGuideColor;
+	Color notepadStyleColor;
 
 	SyntaxStyle[] foldLineStyle;
 
@@ -979,6 +1009,7 @@ public class TextAreaPainter extends JComponent implements TabExpander
 	boolean structureHighlight;
 	boolean eolMarkers;
 	boolean wrapGuide;
+	boolean notepadStyle;
 	AntiAlias antiAlias;
 	boolean fracFontMetrics;
 	RenderingHints renderingHints;
@@ -1023,6 +1054,9 @@ public class TextAreaPainter extends JComponent implements TabExpander
 		caretExtension = new PaintCaret();
 
 		extraLineSpacing = 0;
+		
+		addExtension(NOTEPAD_STYLE_LAYER,new NotepadStyle());
+		
 	} //}}}
 
 	//}}}
@@ -1370,6 +1404,26 @@ public class TextAreaPainter extends JComponent implements TabExpander
 			return null;
 		}
 	} //}}}
+	
+	//{{{NotepadStyle class
+	private class NotepadStyle extends TextAreaExtension
+	{
+		@Override
+		public void paintScreenLineRange(Graphics2D gfx, int firstLine,
+				int lastLine, int[] physicalLines, int[] start,
+				int[] end, int y, int lineHeight)
+		{
+			if(isWrapGuidePainted())
+			{
+				gfx.setColor(getNotepadStyleColor());
+				
+				for(int i = 0; i < lastLine - firstLine + 1; i++)
+					{
+						gfx.drawLine(firstLine + lineHeight * i,y + lineHeight, firstLine + 100 + lineHeight * i, y + lineHeight);
+					}
+			}
+		}
+	}//}}}
 
 	//{{{ PaintText class
 	private class PaintText extends TextAreaExtension

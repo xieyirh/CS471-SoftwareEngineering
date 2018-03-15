@@ -1,170 +1,107 @@
-Log file created on Fri Mar 09 13:22:06 PST 2018
+Log file created on Fri Mar 09 13:42:42 PST 2018
 IMPORTANT:
 Because updating this file after every log message would kill
 performance, it will be *incomplete* unless you invoke the
 Utilities->Troubleshooting->Update Activity Log on Disk command!
-1:22:05 PM [main] [message] Log: When reporting bugs, please include the following information:
-1:22:05 PM [main] [message] Log: java.version=1.8.0_161
-1:22:05 PM [main] [message] Log: java.vm.version=25.161-b12
-1:22:05 PM [main] [message] Log: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-1:22:05 PM [main] [message] Log: java.runtime.version=1.8.0_161-b12
-1:22:05 PM [main] [message] Log: java.runtime.name=Java(TM) SE Runtime Environment
-1:22:05 PM [main] [message] Log: java.vendor=Oracle Corporation
-1:22:05 PM [main] [message] Log: java.compiler=null
-1:22:05 PM [main] [message] Log: os.name=Linux
-1:22:05 PM [main] [message] Log: os.version=4.13.0-36-generic
-1:22:05 PM [main] [message] Log: os.arch=amd64
-1:22:05 PM [main] [message] Log: user.home=/home/yxie
-1:22:05 PM [main] [message] Log: java.home=/usr/lib/jvm/java-8-oracle/jre
-1:22:05 PM [main] [message] Log: java.class.path=/home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/jedit.jar
-1:22:05 PM [main] [message] jEdit: starting with command line arguments: -settings=/home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings
-1:22:05 PM [main] [debug] jEdit: before splash screen activation:764 ms
-1:22:06 PM [main] [debug] jEdit: after splash screen activation:1884 ms
-1:22:06 PM [main] [notice] jEdit: jEdit version 5.4.0
-1:22:06 PM [main] [message] jEdit: Settings directory is /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings
-1:22:06 PM [main] [message] jEdit: jEdit home directory is /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build
-1:22:06 PM [main] [debug] SplashScreen: init:77/1147ms
-1:22:06 PM [main] [debug] SplashScreen: init system properties:13/1160ms
-1:22:06 PM [main] [message] BeanShell: Beanshell Init
-1:22:06 PM [main] [debug] SplashScreen: init beanshell:35/1195ms
-1:22:06 PM [main] [debug] SplashScreen: loading site properties:3/1198ms
-1:22:06 PM [main] [debug] SplashScreen: loading user properties:1/1199ms
-1:22:06 PM [main] [debug] GUIUtilities: Icon theme set to: tango
-1:22:06 PM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
-1:22:06 PM [main] [debug] SplashScreen: init GUI:2/1201ms
-1:22:06 PM [main] [debug] EditServer: jEdit server started on port 41771
-1:22:06 PM [main] [debug] EditServer: Authorization key is 50598594
-1:22:06 PM [main] [debug] SplashScreen: init server:121/1322ms
-1:22:06 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
-1:22:06 PM [main] [debug] SplashScreen: init look and feel:7/1329ms
-1:22:06 PM [main] [debug] SplashScreen: init VFS Manager:1/1330ms
-1:22:06 PM [main] [debug] ActionSet: Loading actions from jar:file:/home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/jedit.jar!/org/gjt/sp/jedit/actions.xml
-1:22:07 PM [main] [debug] DockableWindowManager: Loading dockables from jar:file:/home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/jedit.jar!/org/gjt/sp/jedit/dockables.xml
-1:22:07 PM [main] [debug] SplashScreen: init resources:155/1485ms
-1:22:07 PM [main] [debug] KeymapManagerImpl: copyKeymap(jEdit,imported)
-1:22:07 PM [main] [debug] KeymapManagerImpl: Copying /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/keymaps/jEdit_keys.props to /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/keymaps/imported_keys.props
-1:22:07 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
-1:22:07 PM [main] [debug] SplashScreen: Migrate keymaps:76/1561ms
-1:22:07 PM [main] [notice] jEdit: Loading plugins from /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/jars
-1:22:07 PM [main] [debug] PluginJAR: Opening /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/jars/QuickNotepad.jar
-1:22:07 PM [main] [debug] ActionSet: Loading actions from jeditresource:/QuickNotepad.jar!/actions.xml
-1:22:07 PM [main] [debug] DockableWindowManager: Loading dockables from jeditresource:/QuickNotepad.jar!/dockables.xml
-1:22:07 PM [main] [debug] PluginJAR: Writing /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/jars-cache/QuickNotepad.jar.summary
-1:22:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.0,source=/home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
-1:22:07 PM [main] [notice] jEdit: Loading plugins from /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/jars
-1:22:07 PM [main] [debug] SplashScreen: init plugins:22/1583ms
-1:22:07 PM [main] [debug] SplashScreen: init history model:5/1588ms
-1:22:07 PM [main] [debug] SplashScreen: init buffer history:18/1606ms
-1:22:07 PM [main] [debug] SplashScreen: init killring:4/1610ms
-1:22:07 PM [main] [message] CheckFileStatus: Performing migration step: checkFileStatus
-1:22:07 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
-1:22:07 PM [main] [debug] jEdit: SOCKS proxy disabled
-1:22:07 PM [main] [debug] jEdit: HTTP proxy disabled
-1:22:07 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
-1:22:07 PM [main] [debug] SplashScreen: init various properties:41/1651ms
-1:22:07 PM [main] [message] jEdit: Loading mode catalog file /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/modes/catalog
-1:22:07 PM [main] [message] jEdit: Loading mode catalog file /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/modes/catalog
-1:22:07 PM [main] [debug] SplashScreen: init modes:54/1705ms
-1:22:07 PM [main] [debug] SplashScreen: activate plugins:9/1714ms
-1:22:07 PM [main] [debug] Macros: Registered beanshell macro handler
-1:22:07 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
-1:22:07 PM [main] [message] BeanShell: Running script /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/startup/startup.bsh
-1:22:07 PM [main] [notice] jEdit$5: Loading edit mode /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/modes/text.xml
-1:22:07 PM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
-1:22:07 PM [main] [debug] SplashScreen: init macros:116/1830ms
-1:22:07 PM [main] [debug] SplashScreen: init macros:117/1831ms
-1:22:07 PM [main] [debug] SplashScreen: init macros:118/1832ms
-1:22:07 PM [main] [debug] jEdit: main done:2663 ms
-1:22:07 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/)]
-1:22:07 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/)]
-1:22:07 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/)]
-1:22:07 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/)]
-1:22:07 PM [AWT-EventQueue-0] [debug] BufferSet: 1790634703: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
-1:22:07 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
-1:22:07 PM [AWT-EventQueue-0] [debug] BufferSet: 1790634703 addBufferAt(Untitled-1 (~/),-1)
-1:22:07 PM [AWT-EventQueue-0] [debug] BufferSet: 1790634703: Buffer added Untitled-1 (~/) at 0
-1:22:07 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
-1:22:07 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader: java.io.FileNotFoundException: /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/doc/whatsnew/toc.xml (No such file or directory)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.open0(Native Method)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.open(FileInputStream.java:195)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.<init>(FileInputStream.java:138)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.<init>(FileInputStream.java:93)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.net.URL.openStream(URL.java:1045)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.loadTOC(HelpTOCLoader.java:166)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.createTOC(HelpTOCLoader.java:117)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCPanel$2.run(HelpTOCPanel.java:105)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.TaskManager$MyTask._run(TaskManager.java:258)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.Task.run(Task.java:65)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.lang.Thread.run(Thread.java:748)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader: java.io.FileNotFoundException: /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/doc/users-guide/toc.xml (No such file or directory)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.open0(Native Method)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.open(FileInputStream.java:195)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.<init>(FileInputStream.java:138)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.<init>(FileInputStream.java:93)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.net.URL.openStream(URL.java:1045)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.loadTOC(HelpTOCLoader.java:166)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.createTOC(HelpTOCLoader.java:118)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCPanel$2.run(HelpTOCPanel.java:105)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.TaskManager$MyTask._run(TaskManager.java:258)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.Task.run(Task.java:65)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.lang.Thread.run(Thread.java:748)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader: java.io.FileNotFoundException: /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/doc/FAQ/toc.xml (No such file or directory)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.open0(Native Method)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.open(FileInputStream.java:195)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.<init>(FileInputStream.java:138)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.io.FileInputStream.<init>(FileInputStream.java:93)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.net.URL.openStream(URL.java:1045)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.loadTOC(HelpTOCLoader.java:166)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.createTOC(HelpTOCLoader.java:119)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCPanel$2.run(HelpTOCPanel.java:105)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.TaskManager$MyTask._run(TaskManager.java:258)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.Task.run(Task.java:65)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-1:22:08 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.lang.Thread.run(Thread.java:748)
-1:22:08 PM [jEdit Worker #0] [notice] HelpTOCLoader: The API docs for jEdit will not be available (reinstall jEdit if you want them)
-1:22:08 PM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
-1:22:08 PM [AWT-EventQueue-0] [message] jEdit: Startup complete: 3708 ms
-1:22:08 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-1:22:08 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-1:22:08 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2: java.io.FileNotFoundException: /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/doc/welcome.html (No such file or directory)
-1:22:08 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at java.io.FileInputStream.open0(Native Method)
-1:22:08 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at java.io.FileInputStream.open(FileInputStream.java:195)
-1:22:08 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at java.io.FileInputStream.<init>(FileInputStream.java:138)
-1:22:08 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at java.io.FileInputStream.<init>(FileInputStream.java:93)
-1:22:08 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
-1:22:08 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
-1:22:08 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at javax.swing.JEditorPane.getStream(JEditorPane.java:768)
-1:22:08 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at javax.swing.JEditorPane.setPage(JEditorPane.java:432)
-1:22:08 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at org.gjt.sp.jedit.help.HelpViewer$2.doInBackground(HelpViewer.java:327)
-1:22:08 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at org.gjt.sp.jedit.help.HelpViewer$2.doInBackground(HelpViewer.java:300)
-1:22:08 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at javax.swing.SwingWorker$1.call(SwingWorker.java:295)
-1:22:08 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-1:22:08 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at javax.swing.SwingWorker.run(SwingWorker.java:334)
-1:22:08 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-1:22:08 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-1:22:08 PM [SwingWorker-pool-1-thread-1] [error] HelpViewer$2:  at java.lang.Thread.run(Thread.java:748)
-1:22:15 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-1:22:15 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
-1:22:15 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
-1:22:16 PM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
-1:22:16 PM [AWT-EventQueue-0] [message] PerspectiveManager: Saving /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/perspective.xml
-1:22:16 PM [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
-1:22:16 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
-1:22:16 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
-1:22:16 PM [AWT-EventQueue-0] [debug] BufferSet: 1790634703: Buffer removed Untitled-1 (~/)
-1:22:16 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (~/) is in no bufferSet anymore, closing it
-1:22:16 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=5.0,source=/home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
-1:22:16 PM [AWT-EventQueue-0] [message] BufferHistory: Saving /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/recent.xml
-1:22:16 PM [AWT-EventQueue-0] [message] KillRing: Saving /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/killring.xml
+1:42:42 PM [main] [message] Log: When reporting bugs, please include the following information:
+1:42:42 PM [main] [message] Log: java.version=1.8.0_161
+1:42:42 PM [main] [message] Log: java.vm.version=25.161-b12
+1:42:42 PM [main] [message] Log: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+1:42:42 PM [main] [message] Log: java.runtime.version=1.8.0_161-b12
+1:42:42 PM [main] [message] Log: java.runtime.name=Java(TM) SE Runtime Environment
+1:42:42 PM [main] [message] Log: java.vendor=Oracle Corporation
+1:42:42 PM [main] [message] Log: java.compiler=null
+1:42:42 PM [main] [message] Log: os.name=Linux
+1:42:42 PM [main] [message] Log: os.version=4.13.0-36-generic
+1:42:42 PM [main] [message] Log: os.arch=amd64
+1:42:42 PM [main] [message] Log: user.home=/home/yxie
+1:42:42 PM [main] [message] Log: java.home=/usr/lib/jvm/java-8-oracle/jre
+1:42:42 PM [main] [message] Log: java.class.path=/home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/jedit.jar
+1:42:42 PM [main] [message] jEdit: starting with command line arguments: -settings=/home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings
+1:42:42 PM [main] [debug] jEdit: before splash screen activation:116 ms
+1:42:42 PM [main] [debug] jEdit: after splash screen activation:354 ms
+1:42:42 PM [main] [debug] MiscUtilities: Saving backup of file "/home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/activity.log" to "/home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/settings-backup/activity.log~1~"
+1:42:42 PM [main] [notice] jEdit: jEdit version 5.4.0
+1:42:42 PM [main] [message] jEdit: Settings directory is /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings
+1:42:42 PM [main] [message] jEdit: jEdit home directory is /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build
+1:42:42 PM [main] [debug] SplashScreen: init:29/251ms
+1:42:42 PM [main] [debug] SplashScreen: init system properties:22/273ms
+1:42:42 PM [main] [message] BeanShell: Beanshell Init
+1:42:42 PM [main] [debug] SplashScreen: init beanshell:42/315ms
+1:42:42 PM [main] [debug] SplashScreen: loading site properties:2/317ms
+1:42:42 PM [main] [debug] SplashScreen: loading user properties:13/330ms
+1:42:42 PM [main] [debug] GUIUtilities: Icon theme set to: tango
+1:42:42 PM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+1:42:42 PM [main] [debug] SplashScreen: init GUI:7/337ms
+1:42:42 PM [main] [debug] EditServer: jEdit server started on port 40521
+1:42:42 PM [main] [debug] EditServer: Authorization key is 1248477226
+1:42:42 PM [main] [debug] SplashScreen: init server:14/351ms
+1:42:42 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+1:42:42 PM [main] [debug] SplashScreen: init look and feel:5/356ms
+1:42:42 PM [main] [debug] SplashScreen: init VFS Manager:3/359ms
+1:42:42 PM [main] [debug] ActionSet: Loading actions from jar:file:/home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/jedit.jar!/org/gjt/sp/jedit/actions.xml
+1:42:42 PM [main] [debug] DockableWindowManager: Loading dockables from jar:file:/home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+1:42:43 PM [main] [debug] SplashScreen: init resources:132/491ms
+1:42:43 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+1:42:43 PM [main] [debug] SplashScreen: Migrate keymaps:45/536ms
+1:42:43 PM [main] [notice] jEdit: Loading plugins from /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/jars
+1:42:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.0,source=/home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+1:42:43 PM [main] [notice] jEdit: Loading plugins from /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/jars
+1:42:43 PM [main] [debug] SplashScreen: init plugins:40/576ms
+1:42:43 PM [main] [debug] SplashScreen: init history model:2/578ms
+1:42:43 PM [main] [message] BufferHistory: Loading /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/recent.xml
+1:42:43 PM [main] [debug] SplashScreen: init buffer history:7/585ms
+1:42:43 PM [main] [message] KillRing: Loading /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/killring.xml
+1:42:43 PM [main] [debug] SplashScreen: init killring:6/591ms
+1:42:43 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+1:42:43 PM [main] [debug] jEdit: SOCKS proxy disabled
+1:42:43 PM [main] [debug] jEdit: HTTP proxy disabled
+1:42:43 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+1:42:43 PM [main] [debug] SplashScreen: init various properties:33/624ms
+1:42:43 PM [main] [message] jEdit: Loading mode catalog file /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/modes/catalog
+1:42:43 PM [main] [message] jEdit: Loading mode catalog file /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/modes/catalog
+1:42:43 PM [main] [debug] SplashScreen: init modes:53/677ms
+1:42:43 PM [main] [debug] SplashScreen: activate plugins:9/686ms
+1:42:43 PM [main] [debug] Macros: Registered beanshell macro handler
+1:42:43 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+1:42:43 PM [main] [message] BeanShell: Running script /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/startup/startup.bsh
+1:42:43 PM [main] [notice] jEdit$5: Loading edit mode /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/modes/text.xml
+1:42:43 PM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+1:42:43 PM [main] [debug] SplashScreen: init macros:112/798ms
+1:42:43 PM [main] [debug] SplashScreen: run startup scripts:1/799ms
+1:42:43 PM [main] [debug] SplashScreen: run startup scripts:1/799ms
+1:42:43 PM [AWT-EventQueue-0] [message] PerspectiveManager: Loading /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/perspective.xml
+1:42:43 PM [main] [debug] jEdit: main done:941 ms
+1:42:43 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/)]
+1:42:43 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/)]
+1:42:43 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/)]
+1:42:43 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/)]
+1:42:43 PM [AWT-EventQueue-0] [debug] BufferSet: 1506622012: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+1:42:43 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+1:42:43 PM [AWT-EventQueue-0] [debug] BufferSet: 1506622012 addBufferAt(Untitled-1 (~/),-1)
+1:42:43 PM [AWT-EventQueue-0] [debug] BufferSet: 1506622012: Buffer added Untitled-1 (~/) at 0
+1:42:43 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+1:42:43 PM [AWT-EventQueue-0] [debug] BufferSet: 1506622012 addBufferAt(Untitled-1 (~/),0)
+1:42:43 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+1:42:44 PM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+1:42:44 PM [AWT-EventQueue-0] [message] jEdit: Startup complete: 1613 ms
+1:42:44 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+1:42:44 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+1:42:44 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+1:42:46 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+1:42:46 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+1:42:49 PM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+1:42:49 PM [AWT-EventQueue-0] [message] PerspectiveManager: Saving /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/perspective.xml
+1:42:49 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/perspective.xml" to "/home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/settings-backup/perspective.xml~1~"
+1:42:49 PM [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
+1:42:49 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+1:42:49 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+1:42:49 PM [AWT-EventQueue-0] [debug] BufferSet: 1506622012: Buffer removed Untitled-1 (~/)
+1:42:49 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (~/) is in no bufferSet anymore, closing it
+1:42:49 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=5.0,source=/home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+1:42:49 PM [AWT-EventQueue-0] [message] HistoryModel: Saving history
+1:42:49 PM [AWT-EventQueue-0] [message] BufferHistory: Saving /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/recent.xml
+1:42:49 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/recent.xml" to "/home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/settings-backup/recent.xml~1~"
+1:42:49 PM [AWT-EventQueue-0] [message] KillRing: Saving /home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/killring.xml
+1:42:49 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/killring.xml" to "/home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/settings-backup/killring.xml~1~"
+1:42:49 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/properties" to "/home/yxie/Workspace/CS471-SoftwareEngineering/jEdit/build/settings/settings-backup/properties~1~"

@@ -635,7 +635,7 @@ public class TextAreaPainter extends JComponent implements TabExpander
 		return notepadStyle;
 	}
 	
-	public final void  setNotepadStylePainted(boolean notepadStyle)
+	public final void setNotepadStylePainted(boolean notepadStyle)
 	{
 		this.notepadStyle = notepadStyle;
 		repaint();

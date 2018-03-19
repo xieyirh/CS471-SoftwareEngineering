@@ -1012,8 +1012,8 @@ public class EditPane extends JPanel implements BufferSetListener
 			"view.wrapGuide"));
 		painter.setWrapGuideColor(
 			jEdit.getColorProperty("view.wrapGuideColor"));
-		painter.setNotepadStylePainted(jEdit.getBooleanProperty("view.notePadStyle"));
-		painter.setNotepadStyleColor(jEdit.getColorProperty("view.notePadStyleColor"));
+		painter.setNotepadStylePainted(jEdit.getBooleanProperty("view.notepadStyle"));
+		painter.setNotepadStyleColor(jEdit.getColorProperty("view.notepadStyleColor"));
 		painter.setCaretColor(
 			jEdit.getColorProperty("view.caretColor"));
 		painter.setSelectionColor(

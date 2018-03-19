@@ -597,27 +597,6 @@ public class TextAreaPainter extends JComponent implements TabExpander
 	} //}}}
 	
 	
-	public final Color getNotepadStyleColor()
-	{
-		return notepadStyleColor;
-	}
-	
-	public final void setNotepadStyleColor(Color notepadStyleColor)
-	{
-		this.notepadStyleColor = notepadStyleColor;
-		repaint();
-	}
-	
-	public final boolean isNotepadStylePainted()
-	{
-		return notepadStyle;
-	}
-	
-	public final void  setNotepadStylePainted(boolean notepadStyle)
-	{
-		this.notepadStyle = notepadStyle;
-		repaint();
-	}
 
 	//{{{ isWrapGuidePainted() method
 	/**
@@ -640,6 +619,28 @@ public class TextAreaPainter extends JComponent implements TabExpander
 		repaint();
 	} //}}}
 
+	public final Color getNotepadStyleColor()
+	{
+		return notepadStyleColor;
+	}
+	
+	public final void setNotepadStyleColor(Color notepadStyleColor)
+	{
+		this.notepadStyleColor = notepadStyleColor;
+		repaint();
+	}
+	
+	public final boolean isNotepadStylePainted()
+	{
+		return notepadStyle;
+	}
+	
+	public final void  setNotepadStylePainted(boolean notepadStyle)
+	{
+		this.notepadStyle = notepadStyle;
+		repaint();
+	}
+	
 	//{{{ getFoldLineStyle() method
 	/**
 	 * Returns the fold line style. The first element is the style for
@@ -1405,7 +1406,7 @@ public class TextAreaPainter extends JComponent implements TabExpander
 		}
 	} //}}}
 	
-	//{{{NotepadStyle class
+	/*{{{NotepadStyle class
 	private class NotepadStyle extends TextAreaExtension
 	{
 		@Override
@@ -1413,7 +1414,8 @@ public class TextAreaPainter extends JComponent implements TabExpander
 				int lastLine, int[] physicalLines, int[] start,
 				int[] end, int y, int lineHeight)
 		{
-			if(isNotepadStylePainted())
+			System.out.println("isNotepadStylePainter=");
+			if(true)
 			{
 				gfx.setColor(getNotepadStyleColor());
 				
@@ -1424,7 +1426,27 @@ public class TextAreaPainter extends JComponent implements TabExpander
 					}
 			}
 		}
-	}//}}}
+	}//}}}*/
+	
+	private class NotepadStyle extends TextAreaExtension
+	{
+		@Override
+		public void paintValidLine(Graphics2D gfx, int screenLine,
+				int physicalLine, int start, int end, int y)
+		{
+			System.out.println("isNotepadStylePainted=");
+			if(isNotepadStylePainted())
+			{
+				gfx.setColor(getNotepadStyleColor());
+				
+				for(int i =textArea.painter.getLineHeight(); i < textArea.painter.getHeight()-textArea.getFirstLine() + 1; i=i+ textArea.painter.getLineHeight())
+					{
+						gfx.drawLine(textArea.getHorizontalOffset(),textArea.getFirstLine() + i ,
+								textArea.painter.getWidth(), textArea.getFirstLine() + i);
+					}
+			}
+		}
+	}
 
 	//{{{ PaintText class
 	private class PaintText extends TextAreaExtension
@@ -1514,10 +1536,10 @@ public class TextAreaPainter extends JComponent implements TabExpander
 				gfx.drawString(eolMarkerChar,x,baseLine);
 				x += textArea.charWidth;
 			}
-			else if(notepadStyle)
+			/*else if(notepadStyle)
 			{
 				gfx.setColor(notepadStyleColor);
-			}
+			}*/
 
 			lineInfo.width = x - originalX;
 		}

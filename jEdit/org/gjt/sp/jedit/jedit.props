@@ -259,6 +259,10 @@ view.eolMarkerChar=↩
 view.wrapGuide=true
 view.wrapGuideColor=#8080ff
 
+#Notepad Style
+view.notepadStyle=true;
+view.notepadStyleColor=#8080ff
+
 # page breaks
 view.pageBreaks=false
 view.pageBreaksColor=#8080ff

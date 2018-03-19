@@ -41,6 +41,7 @@ import javax.swing.WindowConstants;
 import org.gjt.sp.jedit.IPropertyManager;
 import org.gjt.sp.jedit.JEditBeanShellAction;
 import org.gjt.sp.jedit.Mode;
+import org.gjt.sp.jedit.jEdit;
 import org.gjt.sp.jedit.JEditActionSet;
 import org.gjt.sp.jedit.datatransfer.RichJEditTextTransferableService;
 import org.gjt.sp.jedit.datatransfer.StringTransferableService;
@@ -277,6 +278,8 @@ public class StandaloneTextArea extends TextArea
 			"view.wrapGuide"));
 		painter.setWrapGuideColor(
 			getColorProperty("view.wrapGuideColor"));
+		painter.setNotepadStylePainted(getBooleanProperty("view.notePadStyle"));
+		painter.setNotepadStyleColor(getColorProperty("view.notePadStyleColor"));
 		painter.setCaretColor(
 			getColorProperty("view.caretColor"));
 		painter.setSelectionColor(

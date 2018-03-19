@@ -608,7 +608,7 @@ public class TextAreaPainter extends JComponent implements TabExpander
 		repaint();
 	}
 	
-	public final boolean isNotepadStyleColorPainted()
+	public final boolean isNotepadStylePainted()
 	{
 		return notepadStyle;
 	}
@@ -1413,13 +1413,14 @@ public class TextAreaPainter extends JComponent implements TabExpander
 				int lastLine, int[] physicalLines, int[] start,
 				int[] end, int y, int lineHeight)
 		{
-			if(isWrapGuidePainted())
+			if(isNotepadStylePainted())
 			{
 				gfx.setColor(getNotepadStyleColor());
 				
-				for(int i = 0; i < lastLine - firstLine + 1; i++)
+				for(int i = lineHeight; i < textArea.painter.getHeight()-firstLine + 1; i=i+lineHeight)
 					{
-						gfx.drawLine(firstLine + lineHeight * i,y + lineHeight, firstLine + 100 + lineHeight * i, y + lineHeight);
+						gfx.drawLine(textArea.getHorizontalOffset(),textArea.getFirstLine() + i ,
+								textArea.painter.getWidth(), textArea.getFirstLine() + i);
 					}
 			}
 		}
@@ -1512,6 +1513,10 @@ public class TextAreaPainter extends JComponent implements TabExpander
 				gfx.setColor(eolMarkerColor);
 				gfx.drawString(eolMarkerChar,x,baseLine);
 				x += textArea.charWidth;
+			}
+			else if(notepadStyle)
+			{
+				gfx.setColor(notepadStyleColor);
 			}
 
 			lineInfo.width = x - originalX;

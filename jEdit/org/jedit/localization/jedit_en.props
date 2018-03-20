@@ -1810,6 +1810,7 @@ options.textarea.lineHighlight=Highlight current line:
 options.textarea.structureHighlight=Highlight matching elements:
 options.textarea.eolMarkers=End of line markers:
 options.textarea.wrapGuide=Wrap guide:
+options.textarea.notepadStyle=Enable Notepad-like style:
 options.textarea.pageBreaks=Page breaks:
 options.textarea.electricBorders=Electric (auto scroll) borders
 options.textarea.stdNextPrevWord=Go to next/previous word commands eat whitespace

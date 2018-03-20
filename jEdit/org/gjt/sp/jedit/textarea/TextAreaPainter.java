@@ -1406,28 +1406,7 @@ public class TextAreaPainter extends JComponent implements TabExpander
 		}
 	} //}}}
 	
-	/*{{{NotepadStyle class
-	private class NotepadStyle extends TextAreaExtension
-	{
-		@Override
-		public void paintScreenLineRange(Graphics2D gfx, int firstLine,
-				int lastLine, int[] physicalLines, int[] start,
-				int[] end, int y, int lineHeight)
-		{
-			System.out.println("isNotepadStylePainter=");
-			if(true)
-			{
-				gfx.setColor(getNotepadStyleColor());
-				
-				for(int i = lineHeight; i < textArea.painter.getHeight()-firstLine + 1; i=i+lineHeight)
-					{
-						gfx.drawLine(textArea.getHorizontalOffset(),textArea.getFirstLine() + i ,
-								textArea.painter.getWidth(), textArea.getFirstLine() + i);
-					}
-			}
-		}
-	}//}}}*/
-	
+	//{{{NotepadStyle class
 	private class NotepadStyle extends TextAreaExtension
 	{
 		@Override
@@ -1446,7 +1425,7 @@ public class TextAreaPainter extends JComponent implements TabExpander
 					}
 			}
 		}
-	}
+	}//}}}
 
 	//{{{ PaintText class
 	private class PaintText extends TextAreaExtension
@@ -1536,11 +1515,6 @@ public class TextAreaPainter extends JComponent implements TabExpander
 				gfx.drawString(eolMarkerChar,x,baseLine);
 				x += textArea.charWidth;
 			}
-			/*else if(notepadStyle)
-			{
-				gfx.setColor(notepadStyleColor);
-			}*/
-
 			lineInfo.width = x - originalX;
 		}
 	} //}}}
